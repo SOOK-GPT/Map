@@ -43,7 +43,7 @@ function App() {
             <ChatBot addToDo={addToDo}/>
           </Route>
           <Route path="/Map">
-            <Kakao addToDo={addToDo}/>
+            <Map addToDo={addToDo}/>
           </Route>
           <Route path="/Face-recognition">
             <FaceRecog addToDo={addToDo}/>
