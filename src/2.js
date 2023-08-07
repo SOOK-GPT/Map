@@ -69,7 +69,8 @@ function Page2() {
     return (
         <div id="map" style={{
             width: '1250px',
-            height: '600px'
+            height: '600px',
+            margin: '0 auto'
         }}></div>
     );
 }
